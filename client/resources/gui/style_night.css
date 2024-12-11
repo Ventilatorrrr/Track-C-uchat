@@ -1,0 +1,259 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f;
+    color: #f5f5f7;
+}
+
+.sign_in_window_style, .sign_up_window_style, .change_password_window_style {
+    background: linear-gradient(145deg, #6f7667, #b5b8bd), #484637;
+    color: #e2e8f0;
+}
+
+.sign_in_button_style, .sign_up_button_style, .change_passw_button_style, .log_out_button_style, 
+.profile_go_back_style, .change_button_on_passw_change_window_style, .go_back_button_chng_window_style, 
+.go_back_button_addchat_window_style, .create_button_style {
+    border-radius: 25px;
+    background: linear-gradient(145deg, #630005, #250506);
+    box-shadow: 3px 3px 5px #14191f, -3px -3px 5px #2b3640;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.sign_in_button_style:hover, .sign_up_button_style:hover, .change_passw_button_style:hover,
+.log_out_button_style:hover, .profile_go_back_style:hover, .change_button_on_passw_change_window_style:hover,
+.go_back_button_chng_window_style:hover, .profile_button_style:hover, .add_chat_button_style:hover, 
+.go_back_button_addchat_window_style:hover, .create_button_style:hover {
+    background: linear-gradient(145deg, #630005, #250506);
+    box-shadow: 3px 3px 5px #202831, -3px -3px 5px #2b3640;
+}
+
+.sign_in_button_style:active, .sign_up_button_style:active, .change_passw_button_style:active,
+.log_out_button_style:active, .profile_go_back_style:active, .change_button_on_passw_change_window_style:active,
+.go_back_button_chng_window_style:active, .profile_button_style:active, .add_chat_button_style:active, 
+.go_back_button_addchat_window_style:active, .create_button_style:active {
+    background: linear-gradient(145deg, #630005, #250506);
+}
+
+.password_entry_signin_style, .password_entry_signup_style, 
+.password_entry_signup_confirm_style, .change_current_password, 
+.change_new_password, .change_confirm_new_password, .search_entry_username_style, 
+.username_entry_signin_style, .username_entry_signup_style {
+    background: linear-gradient(145deg, #630005, #250506);
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 15px;
+    caret-color: black;
+    padding: 10px;
+}
+
+.speechy_style {
+    font-size: 60px;
+    color: #000000;
+    font-family: Cantarell;
+}
+
+.mini_label_style {
+    font-size: 17px;
+    color: #c9c6c6;
+}
+
+.sign_in_mini_button_style, .sign_up_mini_button_style {
+    font-size: 17px;
+    color: #000000;
+    border-color: transparent;
+    background: transparent;
+    outline-style: none;
+}
+
+.sign_in_mini_button_style:hover, .sign_up_mini_button_style:hover {
+    color: #7ea89c;
+}
+
+.show_passw_button_style {
+    background: #250506;
+    color: black;
+    border: none;
+    outline-style: none;
+}
+
+.notification_label_style {
+    font-size: 17px;
+    color: #c9c6c6;
+}
+
+.eye_look_style {
+    background-size: 0%;
+}
+
+.tree_view_addchat_style {
+    background: linear-gradient(145deg, #6f7667, #b5b8bd), #484637;
+    color: #e2e8f0;
+    padding: 10px;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.tree_view_addchat_style:hover {
+    background: linear-gradient(145deg, #630005, #250506);
+    border-radius: 30px;
+}
+
+.tree_view_addchat_style:selected {
+    border-radius: 30px;
+    background: #2e4f46;
+}
+
+.label_addchat_window_style {
+    color: #c9c6c6;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.profile_page_style, .add_chat_window_style, .scrolled_window_addchat_style {
+    background: #b0b4ab;
+    border: 1px solid #2a3b4d;
+}
+
+.profile_username_style, 
+.chat_user_username_style, 
+.chat_username_style {
+    font-size: 20px;          /* Чуть меньший размер для сбалансированного вида */
+    color: #630005;          /* Мятный цвет для акцента */
+    font-weight: 600;        /* Полужирный шрифт вместо полного жирного для элегантности */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Лёгкая тень для текста */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Плавный переход для цвета и тени */
+}
+
+.profile_username_style:hover, 
+.chat_user_username_style:hover, 
+.chat_username_style:hover {
+    color: #630005;          /* Более глубокий мятный цвет при наведении */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Усиление тени при наведении */       
+}
+
+
+.daily_mode_style {
+    border-radius: 20px;
+    background: #c9c6c6;
+    border: none;
+    outline-style: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.change_theme_style {
+    background-color: #6c6b6b;
+    border-color: transparent;
+}
+
+.change_theme_style:checked {
+    background-color: #f3f3f3;
+    outline: none;
+    box-shadow: none;
+}
+
+.chat_box_style {
+    background: #b0b4ab;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень для глубины */
+    padding: 15px; /* Простор между краями и содержимым */
+    border: 1px solid #2d3748; /* Тонкая граница для структуры */
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Плавный переход при изменениях */
+}
+
+.chat_box_style:hover {
+    background: linear-gradient(145deg, #6f7667, #b5b8bd), #484637;
+    box-shadow: 3px 3px 5px #14191f, -3px -3px 5px #2b3640;
+    border-color: #4a5568; /* Немного ярче граница для акцента */
+}
+
+
+.tree_view_chatbar_style {
+    background: #b0b4ab;
+    box-shadow: 3px 3px 5px #14191f, -3px -3px 5px #2b3640;
+    color: #630005;      
+    font-size: 18px;      /* Чуть меньший, удобный для чтения размер шрифта */
+    border: 2px solid #630005; /* Добавляем рамку */
+    padding: 10px;        /* Простор между текстом и границами */
+    border-radius: 8px;   /* Скругленные края для мягкости */
+    transition: background 0.3s ease, color 0.3s ease; /* Плавный переход при изменении */
+    margin: 5px 0;        /* Небольшой отступ сверху и снизу */
+}
+
+
+.tree_view_chatbar_style:hover {
+    background: linear-gradient(145deg, #630005, #250506);
+    color: #ffffff;      /* Белый текст для контраста */   
+}
+
+.tree_view_chatbar_style:selected {
+    background: linear-gradient(145deg, #630005, #250506);
+    color: #ffffff;      /* Белый текст */
+    outline: 2px solid #38b2ac; /* Тонкая обводка для фокусировки */
+}
+
+
+
+.tree_view_messegabar_style {
+    background: #b0b4ab;
+    color: #630005;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    border-style: none;
+    border-width: 0;
+    border-radius: 30px;
+    outline-style: none;
+}
+
+
+
+.scrolled_message_style {
+    border: none;
+    outline-style: none;
+}
+
+.scrolled_chats_style {
+    border-top-color: #487065;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    outline-style: none;
+}
+
+.reconection_label_style {
+    color: #c9c6c6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.entry_message_style {
+    background: linear-gradient(145deg, #630005, #250506);
+    font-size: 22px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    caret-color: #487065;
+}
+
+.profile_button_style, .add_chat_button_style {
+    background: linear-gradient(145deg, #630005, #250506);
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    outline-style: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.chat_button_style {
+    background: linear-gradient(145deg, #630005, #250506);
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #14191f, -3px -3px 5px #2b3640;
+}
+
+.chat_button_style:hover {
+    background-color: #4d8571;
+}
